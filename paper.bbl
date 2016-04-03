@@ -1,0 +1,39 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{none}
+    \entry{this123}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=f589c2ea27bef1912b832f487f5a5b0d}{al}{a\bibinitperiod}{Sriharsha\bibnamedelima Harsha}{S\bibinitperiod\bibinitdelim H\bibinitperiod}{et}{e\bibinitperiod}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f589c2ea27bef1912b832f487f5a5b0d}{al}{a\bibinitperiod}{Sriharsha\bibnamedelima Harsha}{S\bibinitperiod\bibinitdelim H\bibinitperiod}{et}{e\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{f589c2ea27bef1912b832f487f5a5b0d}
+      \strng{fullhash}{f589c2ea27bef1912b832f487f5a5b0d}
+      \field{sortinit}{0}
+      \field{labeltitle}{This is a test paper}
+      \field{title}{This is a test paper}
+      \field{year}{2016}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
