@@ -1,13 +1,25 @@
-[1] Config.pm:318> INFO - This is Biber 1.8
-[2] Config.pm:321> INFO - Logfile is 'paper.blg'
-[232] biber:275> INFO - === Mon Apr  4, 2016, 01:39:35
-[232] Biber.pm:333> INFO - Reading 'paper.bcf'
-[441] Biber.pm:630> INFO - Found 1 citekeys in bib section 0
-[488] Biber.pm:3053> INFO - Processing section 0
-[538] Biber.pm:3190> INFO - Looking for bibtex format file 'Master.bib' for section 0
-[541] bibtex.pm:808> INFO - Found BibTeX data source 'Master.bib'
-[619] Biber.pm:2939> INFO - Overriding locale 'en_IN' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[619] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
-[620] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_IN'
-[627] bbl.pm:482> INFO - Writing 'paper.bbl' with encoding 'ascii'
-[628] bbl.pm:555> INFO - Output to paper.bbl
+[2] Config.pm:318> INFO - This is Biber 1.8
+[3] Config.pm:321> INFO - Logfile is 'paper.blg'
+[550] biber:275> INFO - === Thu Apr  7, 2016, 03:21:44
+[551] Biber.pm:333> INFO - Reading 'paper.bcf'
+[948] Biber.pm:630> INFO - Found 16 citekeys in bib section 0
+[1023] Biber.pm:3053> INFO - Processing section 0
+[1114] Biber.pm:3190> INFO - Looking for bibtex format file 'Master.bib' for section 0
+[1120] bibtex.pm:808> INFO - Found BibTeX data source 'Master.bib'
+[1154] Utils.pm:169> WARN - I didn't find a database entry for '7' (section 0)
+[1156] Utils.pm:169> WARN - I didn't find a database entry for '6' (section 0)
+[1156] Utils.pm:169> WARN - I didn't find a database entry for '9' (section 0)
+[1157] Utils.pm:169> WARN - I didn't find a database entry for '10' (section 0)
+[1158] Utils.pm:169> WARN - I didn't find a database entry for '8' (section 0)
+[1158] Utils.pm:169> WARN - I didn't find a database entry for '11' (section 0)
+[1159] Utils.pm:169> WARN - I didn't find a database entry for '12' (section 0)
+[1160] Utils.pm:169> WARN - I didn't find a database entry for '16' (section 0)
+[1160] Utils.pm:169> WARN - I didn't find a database entry for '13' (section 0)
+[1160] Utils.pm:169> WARN - I didn't find a database entry for '14' (section 0)
+[1161] Utils.pm:169> WARN - I didn't find a database entry for '15' (section 0)
+[1304] Biber.pm:2939> INFO - Overriding locale 'en_IN' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1304] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[1305] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_IN'
+[1341] bbl.pm:482> INFO - Writing 'paper.bbl' with encoding 'ascii'
+[1344] bbl.pm:555> INFO - Output to paper.bbl
+[1345] Biber.pm:105> INFO - WARNINGS: 11

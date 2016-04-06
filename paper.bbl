@@ -19,21 +19,124 @@
 
 \refsection{0}
   \sortlist{entry}{none}
-    \entry{this123}{proceedings}{}
+    \entry{first}{article}{}
       \name{labelname}{1}{}{%
-        {{hash=f589c2ea27bef1912b832f487f5a5b0d}{al}{a\bibinitperiod}{Sriharsha\bibnamedelima Harsha}{S\bibinitperiod\bibinitdelim H\bibinitperiod}{et}{e\bibinitperiod}{}{}}%
+        {{hash=eefdf348bbf9cdfbaf3d873dbaac4dc6}{Redon\bibnamedelima et\bibnamedelima al.}{R\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \name{editor}{1}{}{%
-        {{hash=f589c2ea27bef1912b832f487f5a5b0d}{al}{a\bibinitperiod}{Sriharsha\bibnamedelima Harsha}{S\bibinitperiod\bibinitdelim H\bibinitperiod}{et}{e\bibinitperiod}{}{}}%
+      \name{author}{1}{}{%
+        {{hash=eefdf348bbf9cdfbaf3d873dbaac4dc6}{Redon\bibnamedelima et\bibnamedelima al.}{R\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \strng{namehash}{f589c2ea27bef1912b832f487f5a5b0d}
-      \strng{fullhash}{f589c2ea27bef1912b832f487f5a5b0d}
+      \strng{namehash}{eefdf348bbf9cdfbaf3d873dbaac4dc6}
+      \strng{fullhash}{eefdf348bbf9cdfbaf3d873dbaac4dc6}
       \field{sortinit}{0}
-      \field{labeltitle}{This is a test paper}
-      \field{title}{This is a test paper}
-      \field{year}{2016}
+      \field{labeltitle}{Global variation in copy number in the human genome}
+      \field{journaltitle}{Nature}
+      \field{title}{Global variation in copy number in the human genome}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.1038/nature05329
+      \endverb
+    \endentry
+    \entry{2}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=d53bd0ede1427f56bf0d3efa3eb9b914}{Alkan\bibnamedelima et\bibnamedelima al.}{A\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d53bd0ede1427f56bf0d3efa3eb9b914}{Alkan\bibnamedelima et\bibnamedelima al.}{A\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{d53bd0ede1427f56bf0d3efa3eb9b914}
+      \strng{fullhash}{d53bd0ede1427f56bf0d3efa3eb9b914}
+      \field{sortinit}{0}
+      \field{labeltitle}{Genome structural variation discovery and genotyping}
+      \field{journaltitle}{Nat Rev Genet}
+      \field{month}{05}
+      \field{number}{5}
+      \field{title}{Genome structural variation discovery and genotyping}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{363\bibrangedash 376}
+      \verb{doi}
+      \verb 10.1038/nrg2958
+      \endverb
+    \endentry
+    \entry{3}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9a29af6e1142cb06d6a08d0592d78f26}{Sebat\bibnamedelima J\bibnamedelima et\bibnamedelima al.}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9a29af6e1142cb06d6a08d0592d78f26}{Sebat\bibnamedelima J\bibnamedelima et\bibnamedelima al.}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{9a29af6e1142cb06d6a08d0592d78f26}
+      \strng{fullhash}{9a29af6e1142cb06d6a08d0592d78f26}
+      \field{sortinit}{0}
+      \field{labeltitle}{Strong association of de novo copy number mutations with autism}
+      \field{journaltitle}{Science}
+      \field{month}{03}
+      \field{number}{5823}
+      \field{title}{Strong association of de novo copy number mutations with autism}
+      \field{volume}{361}
+      \field{year}{2007}
+      \field{pages}{445\bibrangedash 449}
+      \verb{doi}
+      \verb 10.1126/science.1138659
+      \endverb
+    \endentry
+    \entry{4}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=f151b771cc02a3044f58be71ceb1a851}{Stefansson\bibnamedelima et\bibnamedelima al.}{S\bibinitperiod}{Hreinn}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f151b771cc02a3044f58be71ceb1a851}{Stefansson\bibnamedelima et\bibnamedelima al.}{S\bibinitperiod}{Hreinn}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f151b771cc02a3044f58be71ceb1a851}
+      \strng{fullhash}{f151b771cc02a3044f58be71ceb1a851}
+      \field{sortinit}{0}
+      \field{labeltitle}{Large recurrent microdeletions associated with schizophrenia}
+      \field{journaltitle}{Nature}
+      \field{month}{09}
+      \field{number}{7210}
+      \field{title}{Large recurrent microdeletions associated with schizophrenia}
+      \field{volume}{455}
+      \field{year}{2008}
+      \field{pages}{232\bibrangedash 236}
+      \verb{doi}
+      \verb 10.1038/nature07229
+      \endverb
+    \endentry
+    \entry{5}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=61fdf576609c0d9018c4aeab94713633}{later}{l\bibinitperiod}{Fill}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=61fdf576609c0d9018c4aeab94713633}{later}{l\bibinitperiod}{Fill}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{61fdf576609c0d9018c4aeab94713633}
+      \strng{fullhash}{61fdf576609c0d9018c4aeab94713633}
+      \field{sortinit}{0}
+      \field{labeltitle}{APP locus duplication causes autosomal dominant early-onset Alzheimer disease with cerebral amyloid angiopathy}
+      \field{journaltitle}{Nat Genet.}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{APP locus duplication causes autosomal dominant early-onset Alzheimer disease with cerebral amyloid angiopathy}
+      \field{volume}{38}
+      \field{year}{2006}
+      \field{pages}{24\bibrangedash 26}
+      \verb{doi}
+      \verb 10.1038/ng1718
+      \endverb
     \endentry
   \endsortlist
+  \missing{9}
+  \missing{15}
+  \missing{7}
+  \missing{13}
+  \missing{8}
+  \missing{14}
+  \missing{6}
+  \missing{12}
+  \missing{16}
+  \missing{10}
+  \missing{11}
 \endrefsection
 \endinput
 
