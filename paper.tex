@@ -132,15 +132,17 @@ GC-bias is the dependence between read depth and GC-content of region. GC-bias l
 
 \paragraph*{Mappability and Read Quality}
 Mappability for a region in the reference genome is defined
-as the probability that a read originating from it is unambiguously mapped back to it. Regions with repetitive elements have a low mappability. Reads generating from such regions are ambiguously mapped and have a low mappability score, leading to higher RD values. We ignore regions/bins with a mappability score (which lies between 0 and 1 including) of 0.5 for CNV detection. We also filter reads with a mapping quality score of zero (q0 reads). We used samtools to filter out low quality reads.
+as the probability that a read originating from it is unambiguously mapped back to it. Regions with repetitive elements have a low mappability. Reads generating from such regions are ambiguously mapped and have a low mappability score, leading to higher RD values. We ignore regions/bins with a mappability score (which lies between 0 and 1 including) of 0.5 for CNV detection. We also filter reads with a mapping quality score of zero (q0 reads). We used samtools \cite{18} to filter out low quality reads.
 
 \paragraph*{Binning}
-Binning is the process in which RD values of a small intervals, called as bins are replaced by a value, generally average of RD values in that bin, as a representative of that bin. Binning is done to reduce the effects of random sequencing errors. Bin length (window length) is an optional parameter in our method, with a default value of 100bp. RD values were calculated using bedtool.We will describe in detail on how bin length affects the CNV detection in later sections.         
+Binning is the process in which RD values of a small intervals, called as bins are replaced by a value, generally average of RD values in that bin, as a representative of that bin. Binning is done to reduce the effects of random sequencing errors. Bin length (window length) is an optional parameter in our method, with a default value of 100bp. RD values were calculated using bedtools \cite{19}. We will describe in detail on how bin length affects the CNV detection in later sections.         
 
 
-\subsection{Segmentation}
-Segmentation can be described as the process of divided the regions into segments such that bins in a region will have similar RD values. A majority of the CNV detection methods use statistical models such as Circular Binary segmentation, Mean Shift algorithm, Hidden Morkhov Model, etc. 
-\subsection{Postprocessing}
+\subsubsection{Segmentation}
+Segmentation can be described as the process of divided the regions into segments such that bins in a region will have similar RD values. A majority of the CNV detection methods use statistical models such as Circular Binary segmentation, Mean Shift algorithm, Hidden Morkhov Model, etc. Duan J et al., 2011 proposes a total variation penalized least squares model for segmentation \cite{20}. They prove that their algorithm works better when compared to many tools in detecting CNVs with smaller window/bin size \cite{12}. We implement their algorithm in our method. The main reason for choosing it was its ability to detect smaller CNVs, given that the smaller SVs (between 50bp and 1000bp) were also being treated as CNVs.  
+
+\subsubsection{Postprocessing}
+ This stage involves identifying regions with abnormal copy number and determining their absolute copy numbers. To do so determination of upper and lower thresholds is done. For generally thresholds as simple as 1.5X and 0.5X of the average RD value are used as upper and lower threshold respectively. We use a slightly less strength viz., 1.45X and 0.55X of the average RD value as upper and lower thresholds respectively.   
 
 \section{Results}
 Discussion about what has been done

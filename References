@@ -1,0 +1,19 @@
+ADD REFERENCES LATER
+5
+6
+7 - http://www.ncbi.nlm.nih.gov/pubmed/15273396
+8 - http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2752127/
+9 - Challenges for CNV interpretation in clinical
+molecular karyotyping: lessons learned from a 1001 sample experience.
+10 - Methods and strategies for analyzing copy number variation
+using DNA microarrays.
+11- Computational tools for copy number variation (CNV) detection using next-generation sequencing data: features and perspectives
+12 - CNV-TV: A robust method to discover copy number variation from short sequencing reads
+13 - ReadDepth 
+14 - CNVnator
+15 - ControlFreec
+16 - 1000 genomes
+17 - Benjamani and Speed
+18 - samtools
+19 - bedtools
+20 - CNValgo ieee paper
