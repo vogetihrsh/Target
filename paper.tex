@@ -10,6 +10,7 @@
 \usepackage{enumerate}
 \usepackage{float}
 
+
 % bibilography page%%%%%%%%%%%%%%
 \begin{filecontents}{Master.bib}
 
@@ -83,6 +84,7 @@ doi = {10.1038/nature07229},
 \renewcommand\IEEEkeywordsname{Keywords}
 \renewcommand*\finentrypunct{.}
 
+
 \title{ICNV-TV: A read-depth based Copy Number Variation detection tool}
 \markboth{Journal of Not yet Decided}{Sriharsha \MakeLowercase{\textit{et al}}: A read-depth based Copy Number Variation detection tool}
 
@@ -125,8 +127,19 @@ In this section we describe about our method in detail. A general CNV detection 
 \subsubsection{Data Preprocessing}
 Most of the tools use alignment file (BAM/SAM) as the input. The read depth (RD) values can be calculated from the alignment files. These RD values calculated are not necessarily proportional to the underlying copy number. This is because of biases such as GC-content bias and mappability bias and random variations. Such RD values obtained can give raise to false positive calls. Hence, it is necessary to remove such effects to obtain true RD values. 
 
+\paragraph*{GC-bias Correction}
+GC-bias is the dependence between read depth and GC-content of region. GC-bias leads to under-representation of DNA fragments with high GC or high AT content. We use an algorithm given by Benjamani and Speed \cite{17}. They show that the GC-bias at a particular region is determined the GC composition of the full fragment to which it belongs. They use GC composition of the full fragment and then use it to correct the RD value at that position.
+
+\paragraph*{Mappability and Read Quality}
+Mappability for a region in the reference genome is defined
+as the probability that a read originating from it is unambiguously mapped back to it. Regions with repetitive elements have a low mappability. Reads generating from such regions are ambiguously mapped and have a low mappability score, leading to higher RD values. We ignore regions/bins with a mappability score (which lies between 0 and 1 including) of 0.5 for CNV detection. We also filter reads with a mapping quality score of zero (q0 reads). We used samtools to filter out low quality reads.
+
+\paragraph*{Binning}
+Binning is the process in which RD values of a small intervals, called as bins are replaced by a value, generally average of RD values in that bin, as a representative of that bin. Binning is done to reduce the effects of random sequencing errors. Bin length (window length) is an optional parameter in our method, with a default value of 100bp. RD values were calculated using bedtool.We will describe in detail on how bin length affects the CNV detection in later sections.         
+
 
 \subsection{Segmentation}
+Segmentation can be described as the process of divided the regions into segments such that bins in a region will have similar RD values. A majority of the CNV detection methods use statistical models such as Circular Binary segmentation, Mean Shift algorithm, Hidden Morkhov Model, etc. 
 \subsection{Postprocessing}
 
 \section{Results}
