@@ -1,0 +1,14 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}First Section}{1}
+\contentsline {section}{\numberline {1.2}Second Section}{2}
+\contentsline {subsection}{\numberline {1.2.1}Mathematics}{2}
+\contentsline {subsection}{\numberline {1.2.2}Footnotes}{2}
+\contentsline {subsection}{\numberline {1.2.3}References}{2}
+\contentsline {subsection}{\numberline {1.2.4}Illustrations, graphs, and photographs}{2}
+\contentsline {subsection}{\numberline {1.2.5}Color}{3}
+\contentsline {chapter}{\numberline {2}Chapter Name}{4}
+\contentsline {chapter}{\numberline {3}Chapter Name}{5}
+\contentsline {chapter}{\numberline {4}Chapter Name}{6}
+\contentsline {chapter}{\numberline {5}Conclusions}{7}
+{\@tempskipb 3.0ex plus 1pt\relax }
+\contentsline {chapter}{{Bibliography}}{9}
